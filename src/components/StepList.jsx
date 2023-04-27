@@ -4,7 +4,7 @@ const StepList = ({ items }) => {
       <div className="step-list__container">
         {items.map(({ title, number, description }) => (
           <div key={number} className="step-list__content">
-            <h3 className="step-list__title">{title}</h3>
+            <h2 className="step-list__title">{title}</h2>
 
             <span className="step-list__number">{number}</span>
 

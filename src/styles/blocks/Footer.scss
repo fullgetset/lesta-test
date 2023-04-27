@@ -1,4 +1,12 @@
 .footer {
-  color: var(--palette-secondary-third);
-  line-height: 1.5;
+  position: absolute;
+  bottom: 19px;
+  display: grid;
+  gap: 48px;
+
+  &__text {
+    color: var(--palette-secondary-third);
+    line-height: 1.5;
+    text-align: center;
+  }
 }

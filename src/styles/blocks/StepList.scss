@@ -19,11 +19,16 @@
     background-color: var(--palette-background-secondary);
   }
 
+  &__title,
+  &__number {
+    font-weight: var(--typography-fontWeightBold);
+  }
+
   &__title {
     font-size: 22px;
     min-height: 58px;
     line-height: 1.2;
-    font-weight: var(--typography-fontWeightBold);
+
     text-transform: uppercase;
     max-width: 298px;
   }
