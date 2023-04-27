@@ -1,0 +1,42 @@
+.step-list {
+  padding-left: 297px;
+  padding-right: 297px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 401px);
+    gap: 61px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    border-radius: var(--border-radius-primary);
+    border: 4px solid #ffc000;
+    position: relative;
+    padding: 36px 31px 59px;
+    background-color: var(--palette-background-secondary);
+  }
+
+  &__title {
+    font-size: 22px;
+    min-height: 58px;
+    line-height: 1.2;
+    font-weight: var(--typography-fontWeightBold);
+    text-transform: uppercase;
+    max-width: 298px;
+  }
+
+  &__number {
+    font-size: 62px;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+  }
+
+  &__description {
+    color: var(--palette-secondary-text);
+    line-height: 1.2;
+  }
+}
